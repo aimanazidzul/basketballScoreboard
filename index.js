@@ -41,3 +41,14 @@ function reset(){
     homeStore.textContent = homeScore
     guestStore.textContent = guestScore
 }
+
+document.getElementById("home-btn-1").addEventListener("click",home1)
+document.getElementById("home-btn-2").addEventListener("click",home2)
+document.getElementById("home-btn-3").addEventListener("click",home3)
+
+document.getElementById("guest-btn-1").addEventListener("click",guest1)
+document.getElementById("guest-btn-2").addEventListener("click",guest2)
+document.getElementById("guest-btn-3").addEventListener("click",guest3)
+
+document.getElementById("resetbtn").addEventListener("click",reset)
+
