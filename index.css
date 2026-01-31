@@ -10,6 +10,8 @@ body {
 #title{
     color: white;
     font-family: Cursedtimer;
+    margin-top: 50px;
+    font-weight: bolder;
 }
 .container {
     display: flex;
@@ -28,7 +30,7 @@ body {
     margin: 20px;
     color: #f94f6d;
     font-family: Cursedtimer;
-    
+    padding-top: 15px;
 }
 
 button{
